@@ -1,0 +1,44 @@
+# Virtual environments
+venv/
+backend/venv/
+.venv/
+pyvenv.cfg
+
+# Environment variables — never commit
+backend/.env
+.env
+
+# ML models
+backend/models/
+
+# ChromaDB
+backend/chroma_db/
+
+# Generated data
+data/raw/
+data/processed/
+
+# Logs
+backend/logs/
+logs/
+*.log
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Node modules
+frontend/node_modules/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Docs
+docs/
